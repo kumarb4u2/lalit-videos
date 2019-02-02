@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import '../App.css';
 import { BASE_URL } from '../helper/constants';
 import SingleVideo from '../components/SingleVideo';
@@ -23,17 +23,30 @@ export class HomeContainer extends Component {
   render() {
     return (
       <div className="container-fluid container-padding">
-        <div className="row">
-          {this.state.videos.map(item => (
-            <div key={item} className="col-xs-12 col-sm-4 video-margin">
-              <SingleVideo
-                src={`${BASE_URL}/uploads/${item}`}
-                title={item}
-                onClickHandler={this.playVideo}
-              />
-            </div>
-          ))}
-        </div>
+        {this.state.videos.length === 0 && (
+          <div className="jumbotron">
+            <h1 className="display-4">Hello!</h1>
+            <p className="lead">No video is present in library.</p>
+            <hr className="my-4" />
+            <p>Click Upload button to upload a video.</p>
+            <Link className="btn btn-warning btn-lg" to="/upload" role="button">
+              Upload
+            </Link>
+          </div>
+        )}
+        {this.state.videos.length > 0 && (
+          <div className="row">
+            {this.state.videos.map(item => (
+              <div key={item} className="col-xs-12 col-sm-4 video-margin">
+                <SingleVideo
+                  src={`${BASE_URL}/uploads/${item}`}
+                  title={item}
+                  onClickHandler={this.playVideo}
+                />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     );
   }

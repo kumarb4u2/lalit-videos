@@ -18,24 +18,142 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div
-        className="row"
-      />,
+      "children": Array [
+        <div
+          className="jumbotron"
+        >
+          <h1
+            className="display-4"
+          >
+            Hello!
+          </h1>
+          <p
+            className="lead"
+          >
+            No video is present in library.
+          </p>
+          <hr
+            className="my-4"
+          />
+          <p>
+            Click Upload button to upload a video.
+          </p>
+          <Link
+            className="btn btn-warning btn-lg"
+            replace={false}
+            role="button"
+            to="/upload"
+          >
+            Upload
+          </Link>
+        </div>,
+        false,
+      ],
       "className": "container-fluid container-padding",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [],
-        "className": "row",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="display-4"
+            >
+              Hello!
+            </h1>,
+            <p
+              className="lead"
+            >
+              No video is present in library.
+            </p>,
+            <hr
+              className="my-4"
+            />,
+            <p>
+              Click Upload button to upload a video.
+            </p>,
+            <Link
+              className="btn btn-warning btn-lg"
+              replace={false}
+              role="button"
+              to="/upload"
+            >
+              Upload
+            </Link>,
+          ],
+          "className": "jumbotron",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hello!",
+              "className": "display-4",
+            },
+            "ref": null,
+            "rendered": "Hello!",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "No video is present in library.",
+              "className": "lead",
+            },
+            "ref": null,
+            "rendered": "No video is present in library.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "my-4",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Click Upload button to upload a video.",
+            },
+            "ref": null,
+            "rendered": "Click Upload button to upload a video.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Upload",
+              "className": "btn btn-warning btn-lg",
+              "replace": false,
+              "role": "button",
+              "to": "/upload",
+            },
+            "ref": null,
+            "rendered": "Upload",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
       },
-      "ref": null,
-      "rendered": Array [],
-      "type": "div",
-    },
+      false,
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -44,24 +162,142 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <div
-          className="row"
-        />,
+        "children": Array [
+          <div
+            className="jumbotron"
+          >
+            <h1
+              className="display-4"
+            >
+              Hello!
+            </h1>
+            <p
+              className="lead"
+            >
+              No video is present in library.
+            </p>
+            <hr
+              className="my-4"
+            />
+            <p>
+              Click Upload button to upload a video.
+            </p>
+            <Link
+              className="btn btn-warning btn-lg"
+              replace={false}
+              role="button"
+              to="/upload"
+            >
+              Upload
+            </Link>
+          </div>,
+          false,
+        ],
         "className": "container-fluid container-padding",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [],
-          "className": "row",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="display-4"
+              >
+                Hello!
+              </h1>,
+              <p
+                className="lead"
+              >
+                No video is present in library.
+              </p>,
+              <hr
+                className="my-4"
+              />,
+              <p>
+                Click Upload button to upload a video.
+              </p>,
+              <Link
+                className="btn btn-warning btn-lg"
+                replace={false}
+                role="button"
+                to="/upload"
+              >
+                Upload
+              </Link>,
+            ],
+            "className": "jumbotron",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hello!",
+                "className": "display-4",
+              },
+              "ref": null,
+              "rendered": "Hello!",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "No video is present in library.",
+                "className": "lead",
+              },
+              "ref": null,
+              "rendered": "No video is present in library.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "my-4",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Click Upload button to upload a video.",
+              },
+              "ref": null,
+              "rendered": "Click Upload button to upload a video.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Upload",
+                "className": "btn btn-warning btn-lg",
+                "replace": false,
+                "role": "button",
+                "to": "/upload",
+              },
+              "ref": null,
+              "rendered": "Upload",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
         },
-        "ref": null,
-        "rendered": Array [],
-        "type": "div",
-      },
+        false,
+      ],
       "type": "div",
     },
   ],
