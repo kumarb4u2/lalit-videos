@@ -31,4 +31,16 @@ describe('HomeContainer', () => {
     shallow(<HomeContainer />);
     expect(axios.get).toBeCalledWith(`${BASE_URL}/videos`);
   });
+
+  it('should match snapshot if there are some videos present in state', () => {
+    const component = shallow(<HomeContainer />);
+    component.setState({ videos: ['1233.mp4', '2345.mp4'] });
+    expect(component).toMatchSnapshot();
+  });
+  it('should play the video which of title is passed to', () => {
+    const history = { push: jest.fn() };
+    const component = shallow(<HomeContainer history={history} />);
+    component.instance().playVideo('12345678');
+    expect(history.push).toBeCalledWith(`/play/12345678`);
+  });
 });

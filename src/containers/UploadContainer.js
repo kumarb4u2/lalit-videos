@@ -3,6 +3,7 @@ import axios from 'axios';
 import styled from 'styled-components';
 import '../App.css';
 import isValidVideoFile from '../helper/videoValidator';
+import { BASE_URL } from '../helper/constants';
 
 const UploadBox = styled.div`
   margin-top: 20%;
@@ -33,7 +34,7 @@ class UploadContainer extends Component {
     // Do not submit if invalid file is selected
     if (!this.state.invalidFile) {
       axios
-        .post('http://localhost:4000/videos', this.state.videoDetails)
+        .post(`${BASE_URL}/videos`, this.state.videoDetails)
         .then(response => {
           this.setState({ isSuccess: true });
         })

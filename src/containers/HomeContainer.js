@@ -21,9 +21,10 @@ export class HomeContainer extends Component {
   };
 
   render() {
+    const { videos } = this.state;
     return (
       <div className="container-fluid container-padding">
-        {this.state.videos.length === 0 && (
+        {videos.length === 0 && (
           <div className="jumbotron">
             <h1 className="display-4">Hello!</h1>
             <p className="lead">No video is present in library.</p>
@@ -34,7 +35,7 @@ export class HomeContainer extends Component {
             </Link>
           </div>
         )}
-        {this.state.videos.length > 0 && (
+        {videos.length > 0 && (
           <div className="row">
             {this.state.videos.map(item => (
               <div key={item} className="col-xs-12 col-sm-4 video-margin">

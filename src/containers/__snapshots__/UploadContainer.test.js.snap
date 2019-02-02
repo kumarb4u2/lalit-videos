@@ -1,0 +1,1507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadContainer should match snapshot if file is not a video 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UploadContainer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        false,
+        <ForwardRef
+          className="bg-light"
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <p
+              className="text-danger"
+            >
+              Only videos are allowed.
+            </p>
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>
+        </ForwardRef>,
+      ],
+      "className": "container container-padding",
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <form
+            onSubmit={[Function]}
+          >
+            <p
+              className="text-danger"
+            >
+              Only videos are allowed.
+            </p>
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>,
+          "className": "bg-light",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="text-danger"
+              >
+                Only videos are allowed.
+              </p>,
+              <input
+                onChange={[Function]}
+                type="file"
+              />,
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Only videos are allowed.",
+                "className": "text-danger",
+              },
+              "ref": null,
+              "rendered": "Only videos are allowed.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "type": "file",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Submit",
+                "className": "btn btn-danger ",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          false,
+          <ForwardRef
+            className="bg-light"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <p
+                className="text-danger"
+              >
+                Only videos are allowed.
+              </p>
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>
+          </ForwardRef>,
+        ],
+        "className": "container container-padding",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <form
+              onSubmit={[Function]}
+            >
+              <p
+                className="text-danger"
+              >
+                Only videos are allowed.
+              </p>
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>,
+            "className": "bg-light",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="text-danger"
+                >
+                  Only videos are allowed.
+                </p>,
+                <input
+                  onChange={[Function]}
+                  type="file"
+                />,
+                <ForwardRef
+                  className="btn btn-danger "
+                >
+                  Submit
+                </ForwardRef>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Only videos are allowed.",
+                  "className": "text-danger",
+                },
+                "ref": null,
+                "rendered": "Only videos are allowed.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "type": "file",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Submit",
+                  "className": "btn btn-danger ",
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.button",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "button",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "form",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`UploadContainer should match snapshot if file upload is failed 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UploadContainer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        <div
+          className="alert alert-danger"
+          role="alert"
+        >
+          Unable to upload video, please try again later.
+        </div>,
+        <ForwardRef
+          className="bg-light"
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>
+        </ForwardRef>,
+      ],
+      "className": "container container-padding",
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Unable to upload video, please try again later.",
+          "className": "alert alert-danger",
+          "role": "alert",
+        },
+        "ref": null,
+        "rendered": "Unable to upload video, please try again later.",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <form
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>,
+          "className": "bg-light",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <input
+                onChange={[Function]}
+                type="file"
+              />,
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "type": "file",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Submit",
+                "className": "btn btn-danger ",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          <div
+            className="alert alert-danger"
+            role="alert"
+          >
+            Unable to upload video, please try again later.
+          </div>,
+          <ForwardRef
+            className="bg-light"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>
+          </ForwardRef>,
+        ],
+        "className": "container container-padding",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Unable to upload video, please try again later.",
+            "className": "alert alert-danger",
+            "role": "alert",
+          },
+          "ref": null,
+          "rendered": "Unable to upload video, please try again later.",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <form
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>,
+            "className": "bg-light",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                false,
+                <input
+                  onChange={[Function]}
+                  type="file"
+                />,
+                <ForwardRef
+                  className="btn btn-danger "
+                >
+                  Submit
+                </ForwardRef>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "type": "file",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Submit",
+                  "className": "btn btn-danger ",
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.button",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "button",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "form",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`UploadContainer should match snapshot if file upload is successful 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UploadContainer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="alert alert-success"
+          role="alert"
+        >
+          Video uploaded successfully.
+        </div>,
+        false,
+        <ForwardRef
+          className="bg-light"
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>
+        </ForwardRef>,
+      ],
+      "className": "container container-padding",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Video uploaded successfully.",
+          "className": "alert alert-success",
+          "role": "alert",
+        },
+        "ref": null,
+        "rendered": "Video uploaded successfully.",
+        "type": "div",
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <form
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>,
+          "className": "bg-light",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <input
+                onChange={[Function]}
+                type="file"
+              />,
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "type": "file",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Submit",
+                "className": "btn btn-danger ",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="alert alert-success"
+            role="alert"
+          >
+            Video uploaded successfully.
+          </div>,
+          false,
+          <ForwardRef
+            className="bg-light"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>
+          </ForwardRef>,
+        ],
+        "className": "container container-padding",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Video uploaded successfully.",
+            "className": "alert alert-success",
+            "role": "alert",
+          },
+          "ref": null,
+          "rendered": "Video uploaded successfully.",
+          "type": "div",
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <form
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>,
+            "className": "bg-light",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                false,
+                <input
+                  onChange={[Function]}
+                  type="file"
+                />,
+                <ForwardRef
+                  className="btn btn-danger "
+                >
+                  Submit
+                </ForwardRef>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "type": "file",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Submit",
+                  "className": "btn btn-danger ",
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.button",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "button",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "form",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`UploadContainer should match snapshot in default state 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UploadContainer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        false,
+        <ForwardRef
+          className="bg-light"
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>
+        </ForwardRef>,
+      ],
+      "className": "container container-padding",
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <form
+            onSubmit={[Function]}
+          >
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+            <ForwardRef
+              className="btn btn-danger "
+            >
+              Submit
+            </ForwardRef>
+          </form>,
+          "className": "bg-light",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <input
+                onChange={[Function]}
+                type="file"
+              />,
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "type": "file",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Submit",
+                "className": "btn btn-danger ",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "form",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          false,
+          <ForwardRef
+            className="bg-light"
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>
+          </ForwardRef>,
+        ],
+        "className": "container container-padding",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <form
+              onSubmit={[Function]}
+            >
+              <input
+                onChange={[Function]}
+                type="file"
+              />
+              <ForwardRef
+                className="btn btn-danger "
+              >
+                Submit
+              </ForwardRef>
+            </form>,
+            "className": "bg-light",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                false,
+                <input
+                  onChange={[Function]}
+                  type="file"
+                />,
+                <ForwardRef
+                  className="btn btn-danger "
+                >
+                  Submit
+                </ForwardRef>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              false,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onChange": [Function],
+                  "type": "file",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Submit",
+                  "className": "btn btn-danger ",
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "rules": Array [
+                      "
+  width: 100%;
+  margin-top: 20px;
+  @media (min-width: 767px) {
+    width: auto;
+    margin-top: 0;
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.button",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "button",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "form",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+  margin-top: 20%;
+  padding: 50px 0;
+  text-align: center;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

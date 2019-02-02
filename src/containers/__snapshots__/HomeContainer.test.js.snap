@@ -1,5 +1,296 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`HomeContainer should match snapshot if there are some videos present in state 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HomeContainer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        false,
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-12 col-sm-4 video-margin"
+          >
+            <SingleVideo
+              onClickHandler={[Function]}
+              src="http://localhost:4000/uploads/1233.mp4"
+              title="1233.mp4"
+            />
+          </div>
+          <div
+            className="col-xs-12 col-sm-4 video-margin"
+          >
+            <SingleVideo
+              onClickHandler={[Function]}
+              src="http://localhost:4000/uploads/2345.mp4"
+              title="2345.mp4"
+            />
+          </div>
+        </div>,
+      ],
+      "className": "container-fluid container-padding",
+    },
+    "ref": null,
+    "rendered": Array [
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="col-xs-12 col-sm-4 video-margin"
+            >
+              <SingleVideo
+                onClickHandler={[Function]}
+                src="http://localhost:4000/uploads/1233.mp4"
+                title="1233.mp4"
+              />
+            </div>,
+            <div
+              className="col-xs-12 col-sm-4 video-margin"
+            >
+              <SingleVideo
+                onClickHandler={[Function]}
+                src="http://localhost:4000/uploads/2345.mp4"
+                title="2345.mp4"
+              />
+            </div>,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1233.mp4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <SingleVideo
+                onClickHandler={[Function]}
+                src="http://localhost:4000/uploads/1233.mp4"
+                title="1233.mp4"
+              />,
+              "className": "col-xs-12 col-sm-4 video-margin",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "onClickHandler": [Function],
+                "src": "http://localhost:4000/uploads/1233.mp4",
+                "title": "1233.mp4",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2345.mp4",
+            "nodeType": "host",
+            "props": Object {
+              "children": <SingleVideo
+                onClickHandler={[Function]}
+                src="http://localhost:4000/uploads/2345.mp4"
+                title="2345.mp4"
+              />,
+              "className": "col-xs-12 col-sm-4 video-margin",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "onClickHandler": [Function],
+                "src": "http://localhost:4000/uploads/2345.mp4",
+                "title": "2345.mp4",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          <div
+            className="row"
+          >
+            <div
+              className="col-xs-12 col-sm-4 video-margin"
+            >
+              <SingleVideo
+                onClickHandler={[Function]}
+                src="http://localhost:4000/uploads/1233.mp4"
+                title="1233.mp4"
+              />
+            </div>
+            <div
+              className="col-xs-12 col-sm-4 video-margin"
+            >
+              <SingleVideo
+                onClickHandler={[Function]}
+                src="http://localhost:4000/uploads/2345.mp4"
+                title="2345.mp4"
+              />
+            </div>
+          </div>,
+        ],
+        "className": "container-fluid container-padding",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col-xs-12 col-sm-4 video-margin"
+              >
+                <SingleVideo
+                  onClickHandler={[Function]}
+                  src="http://localhost:4000/uploads/1233.mp4"
+                  title="1233.mp4"
+                />
+              </div>,
+              <div
+                className="col-xs-12 col-sm-4 video-margin"
+              >
+                <SingleVideo
+                  onClickHandler={[Function]}
+                  src="http://localhost:4000/uploads/2345.mp4"
+                  title="2345.mp4"
+                />
+              </div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1233.mp4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <SingleVideo
+                  onClickHandler={[Function]}
+                  src="http://localhost:4000/uploads/1233.mp4"
+                  title="1233.mp4"
+                />,
+                "className": "col-xs-12 col-sm-4 video-margin",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClickHandler": [Function],
+                  "src": "http://localhost:4000/uploads/1233.mp4",
+                  "title": "1233.mp4",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2345.mp4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <SingleVideo
+                  onClickHandler={[Function]}
+                  src="http://localhost:4000/uploads/2345.mp4"
+                  title="2345.mp4"
+                />,
+                "className": "col-xs-12 col-sm-4 video-margin",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "onClickHandler": [Function],
+                  "src": "http://localhost:4000/uploads/2345.mp4",
+                  "title": "2345.mp4",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
 exports[`HomeContainer should match snapshot in default state 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
