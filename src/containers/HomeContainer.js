@@ -41,7 +41,7 @@ export class HomeContainer extends Component {
               <div key={item} className="col-xs-12 col-sm-4 video-margin">
                 <SingleVideo
                   src={`${BASE_URL}/uploads/${item}`}
-                  title={item}
+                  title={item.split('___')[1]}
                   onClickHandler={this.playVideo}
                 />
               </div>

@@ -28,8 +28,8 @@ ShallowWrapper {
           >
             <SingleVideo
               onClickHandler={[Function]}
-              src="http://localhost:4000/uploads/1233.mp4"
-              title="1233.mp4"
+              src="http://localhost:4000/uploads/1233___some.mp4"
+              title="some.mp4"
             />
           </div>
           <div
@@ -37,8 +37,8 @@ ShallowWrapper {
           >
             <SingleVideo
               onClickHandler={[Function]}
-              src="http://localhost:4000/uploads/2345.mp4"
-              title="2345.mp4"
+              src="http://localhost:4000/uploads/2345___any.mp4"
+              title="any.mp4"
             />
           </div>
         </div>,
@@ -59,8 +59,8 @@ ShallowWrapper {
             >
               <SingleVideo
                 onClickHandler={[Function]}
-                src="http://localhost:4000/uploads/1233.mp4"
-                title="1233.mp4"
+                src="http://localhost:4000/uploads/1233___some.mp4"
+                title="some.mp4"
               />
             </div>,
             <div
@@ -68,8 +68,8 @@ ShallowWrapper {
             >
               <SingleVideo
                 onClickHandler={[Function]}
-                src="http://localhost:4000/uploads/2345.mp4"
-                title="2345.mp4"
+                src="http://localhost:4000/uploads/2345___any.mp4"
+                title="any.mp4"
               />
             </div>,
           ],
@@ -79,13 +79,13 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "1233.mp4",
+            "key": "1233___some.mp4",
             "nodeType": "host",
             "props": Object {
               "children": <SingleVideo
                 onClickHandler={[Function]}
-                src="http://localhost:4000/uploads/1233.mp4"
-                title="1233.mp4"
+                src="http://localhost:4000/uploads/1233___some.mp4"
+                title="some.mp4"
               />,
               "className": "col-xs-12 col-sm-4 video-margin",
             },
@@ -96,8 +96,8 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "onClickHandler": [Function],
-                "src": "http://localhost:4000/uploads/1233.mp4",
-                "title": "1233.mp4",
+                "src": "http://localhost:4000/uploads/1233___some.mp4",
+                "title": "some.mp4",
               },
               "ref": null,
               "rendered": null,
@@ -107,13 +107,13 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "2345.mp4",
+            "key": "2345___any.mp4",
             "nodeType": "host",
             "props": Object {
               "children": <SingleVideo
                 onClickHandler={[Function]}
-                src="http://localhost:4000/uploads/2345.mp4"
-                title="2345.mp4"
+                src="http://localhost:4000/uploads/2345___any.mp4"
+                title="any.mp4"
               />,
               "className": "col-xs-12 col-sm-4 video-margin",
             },
@@ -124,8 +124,8 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "onClickHandler": [Function],
-                "src": "http://localhost:4000/uploads/2345.mp4",
-                "title": "2345.mp4",
+                "src": "http://localhost:4000/uploads/2345___any.mp4",
+                "title": "any.mp4",
               },
               "ref": null,
               "rendered": null,
@@ -155,8 +155,8 @@ ShallowWrapper {
             >
               <SingleVideo
                 onClickHandler={[Function]}
-                src="http://localhost:4000/uploads/1233.mp4"
-                title="1233.mp4"
+                src="http://localhost:4000/uploads/1233___some.mp4"
+                title="some.mp4"
               />
             </div>
             <div
@@ -164,8 +164,8 @@ ShallowWrapper {
             >
               <SingleVideo
                 onClickHandler={[Function]}
-                src="http://localhost:4000/uploads/2345.mp4"
-                title="2345.mp4"
+                src="http://localhost:4000/uploads/2345___any.mp4"
+                title="any.mp4"
               />
             </div>
           </div>,
@@ -186,8 +186,8 @@ ShallowWrapper {
               >
                 <SingleVideo
                   onClickHandler={[Function]}
-                  src="http://localhost:4000/uploads/1233.mp4"
-                  title="1233.mp4"
+                  src="http://localhost:4000/uploads/1233___some.mp4"
+                  title="some.mp4"
                 />
               </div>,
               <div
@@ -195,8 +195,8 @@ ShallowWrapper {
               >
                 <SingleVideo
                   onClickHandler={[Function]}
-                  src="http://localhost:4000/uploads/2345.mp4"
-                  title="2345.mp4"
+                  src="http://localhost:4000/uploads/2345___any.mp4"
+                  title="any.mp4"
                 />
               </div>,
             ],
@@ -206,13 +206,13 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "1233.mp4",
+              "key": "1233___some.mp4",
               "nodeType": "host",
               "props": Object {
                 "children": <SingleVideo
                   onClickHandler={[Function]}
-                  src="http://localhost:4000/uploads/1233.mp4"
-                  title="1233.mp4"
+                  src="http://localhost:4000/uploads/1233___some.mp4"
+                  title="some.mp4"
                 />,
                 "className": "col-xs-12 col-sm-4 video-margin",
               },
@@ -223,8 +223,8 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "onClickHandler": [Function],
-                  "src": "http://localhost:4000/uploads/1233.mp4",
-                  "title": "1233.mp4",
+                  "src": "http://localhost:4000/uploads/1233___some.mp4",
+                  "title": "some.mp4",
                 },
                 "ref": null,
                 "rendered": null,
@@ -234,13 +234,13 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "2345.mp4",
+              "key": "2345___any.mp4",
               "nodeType": "host",
               "props": Object {
                 "children": <SingleVideo
                   onClickHandler={[Function]}
-                  src="http://localhost:4000/uploads/2345.mp4"
-                  title="2345.mp4"
+                  src="http://localhost:4000/uploads/2345___any.mp4"
+                  title="any.mp4"
                 />,
                 "className": "col-xs-12 col-sm-4 video-margin",
               },
@@ -251,8 +251,8 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "onClickHandler": [Function],
-                  "src": "http://localhost:4000/uploads/2345.mp4",
-                  "title": "2345.mp4",
+                  "src": "http://localhost:4000/uploads/2345___any.mp4",
+                  "title": "any.mp4",
                 },
                 "ref": null,
                 "rendered": null,

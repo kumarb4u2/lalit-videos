@@ -34,7 +34,7 @@ describe('HomeContainer', () => {
 
   it('should match snapshot if there are some videos present in state', () => {
     const component = shallow(<HomeContainer />);
-    component.setState({ videos: ['1233.mp4', '2345.mp4'] });
+    component.setState({ videos: ['1233___some.mp4', '2345___any.mp4'] });
     expect(component).toMatchSnapshot();
   });
   it('should play the video which of title is passed to', () => {
