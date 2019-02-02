@@ -13,9 +13,15 @@ const Title = styled.span`
   font-weight: 500;
 `;
 
-const SingleVideo = ({ src, playVideo, title }) => (
+const SingleVideo = ({ src, onClickHandler, title }) => (
   <VideoContainer>
-    <StyledVideo width="100%" title="Click to play" onClick={playVideo}>
+    <StyledVideo
+      width="100%"
+      title="Click to play"
+      onClick={() => {
+        onClickHandler(title);
+      }}
+    >
       <source src={src} type="video/mp4" />
       Your browser does not support the video tag.
     </StyledVideo>

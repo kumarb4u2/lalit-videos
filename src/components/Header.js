@@ -1,23 +1,10 @@
 import React, { PureComponent } from 'react';
-import { withRouter } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
+import { withRouter, Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Flex = styled.div`
-  display: flex;
-  width: 100%;
-`;
-
-const ColLeft = styled.div`
-  width: 50%;
-  justify-content: flex-start;
-`;
-
-const ColRight = styled.div`
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
+const Heading = styled(Link)`
+  font-weight: 500;
+  color: red !important;
 `;
 
 // seperate export to test unwarapped component
@@ -28,18 +15,24 @@ export class Header extends PureComponent {
 
   render() {
     return (
-      <Navbar bg="light" expand="lg">
-        <Flex>
-          <ColLeft>
-            <h3>Simplified Youtube</h3>
-          </ColLeft>
-          <ColRight>
-            <Button variant="primary" onClick={this.upload}>
-              Upload
-            </Button>
-          </ColRight>
-        </Flex>
-      </Navbar>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Heading className="navbar-brand" to="/">
+          Simple Youtube
+        </Heading>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <Link className="navbar-brand" to="/">
+                Home
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <Link className="btn btn-primary" to="/upload">
+          Upload
+        </Link>
+      </nav>
     );
   }
 }
