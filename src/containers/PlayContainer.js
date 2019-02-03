@@ -2,6 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import styled from 'styled-components';
 import { BASE_URL } from '../helper/constants';
+import getVideoTitle from '../helper/getVideoTitle';
 
 const VideoContainer = styled.div`
   margin-top: 30px;
@@ -14,7 +15,7 @@ const Heading = styled.h2`
 
 const PlayContainer = props => (
   <div className="container-padding">
-    <Heading>Playing {props.match.params.id}</Heading>
+    <Heading>Playing {getVideoTitle(props.match.params.id)}</Heading>
     <div className="row justify-content-sm-center">
       <VideoContainer className="col-xs-12 col-sm-6">
         <video width="100%" controls autoPlay>

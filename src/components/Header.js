@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Heading = styled(Link)`
@@ -8,7 +8,7 @@ const Heading = styled(Link)`
 `;
 
 // seperate export to test unwarapped component
-const Header = () => (
+export const Header = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Heading className="navbar-brand" to="/">
       Simple Youtube
@@ -22,10 +22,12 @@ const Header = () => (
         </li>
       </ul>
     </div>
-    <Link className="btn btn-primary" to="/upload">
-      Upload
-    </Link>
+    {props.history.location.pathname !== '/upload' && (
+      <Link className="btn btn-primary" to="/upload">
+        Upload
+      </Link>
+    )}
   </nav>
 );
 
-export default Header;
+export default withRouter(Header);

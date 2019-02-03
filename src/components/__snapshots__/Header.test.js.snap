@@ -3,7 +3,15 @@
 exports[`Header should match snapshot in default state 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__unrendered__): <Header
+    history={
+      Object {
+        "location": Object {
+          "pathname": "/upload",
+        },
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -45,13 +53,7 @@ ShallowWrapper {
             </li>
           </ul>
         </div>,
-        <Link
-          className="btn btn-primary"
-          replace={false}
-          to="/upload"
-        >
-          Upload
-        </Link>,
+        false,
       ],
       "className": "navbar navbar-expand-lg navbar-light bg-light",
     },
@@ -170,20 +172,7 @@ ShallowWrapper {
         },
         "type": "div",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": "Upload",
-          "className": "btn btn-primary",
-          "replace": false,
-          "to": "/upload",
-        },
-        "ref": null,
-        "rendered": "Upload",
-        "type": [Function],
-      },
+      false,
     ],
     "type": "nav",
   },
@@ -220,13 +209,7 @@ ShallowWrapper {
               </li>
             </ul>
           </div>,
-          <Link
-            className="btn btn-primary"
-            replace={false}
-            to="/upload"
-          >
-            Upload
-          </Link>,
+          false,
         ],
         "className": "navbar navbar-expand-lg navbar-light bg-light",
       },
@@ -345,20 +328,7 @@ ShallowWrapper {
           },
           "type": "div",
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": "Upload",
-            "className": "btn btn-primary",
-            "replace": false,
-            "to": "/upload",
-          },
-          "ref": null,
-          "rendered": "Upload",
-          "type": [Function],
-        },
+        false,
       ],
       "type": "nav",
     },

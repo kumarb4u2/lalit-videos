@@ -13,13 +13,13 @@ const Title = styled.span`
   font-weight: 500;
 `;
 
-const SingleVideo = ({ src, onClickHandler, title }) => (
+const SingleVideo = ({ src, onClickHandler, title, fullName }) => (
   <VideoContainer>
     <StyledVideo
       width="100%"
       title="Click to play"
       onClick={() => {
-        onClickHandler(title);
+        onClickHandler(fullName);
       }}
     >
       <source src={src} type="video/mp4" />

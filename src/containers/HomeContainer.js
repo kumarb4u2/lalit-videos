@@ -4,6 +4,7 @@ import { withRouter, Link } from 'react-router-dom';
 import '../App.css';
 import { BASE_URL } from '../helper/constants';
 import SingleVideo from '../components/SingleVideo';
+import getVideoTitle from '../helper/getVideoTitle';
 
 // export to test unwrapped component
 export class HomeContainer extends Component {
@@ -41,7 +42,8 @@ export class HomeContainer extends Component {
               <div key={item} className="col-xs-12 col-sm-4 video-margin">
                 <SingleVideo
                   src={`${BASE_URL}/uploads/${item}`}
-                  title={item.split('___')[1]}
+                  title={getVideoTitle(item)}
+                  fullName={item}
                   onClickHandler={this.playVideo}
                 />
               </div>
